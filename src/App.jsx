@@ -1,5 +1,6 @@
 
 import './App.css'
+import Count from './component/Count'
 import Hero from './component/Hero'
 import { Navbar } from './component/Navbar'
 
@@ -10,6 +11,7 @@ function App() {
 
         <Navbar></Navbar>
         <Hero></Hero>
+        <Count/>
 
      
     </>
